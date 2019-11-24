@@ -1,0 +1,38 @@
+{
+  "name": "rejstry",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js | pino-pretty -t SYS:standard",
+    "lint": "eslint ./src",
+    "madge": "madge ./src -c",
+    "madge:i": "madge ./src -i ./module-dependencies.png",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexkode/rejstry.git"
+  },
+  "author": "hexkode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexkode/rejstry/issues"
+  },
+  "homepage": "https://github.com/hexkode/rejstry#readme",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "env-config-map": "1.0.4",
+    "fastify": "2.10.0",
+    "pino": "5.13.6"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.2.0",
+    "eslint-plugin-import": "2.18.2",
+    "nodemon": "1.19.4",
+    "pino-pretty": "3.3.0",
+    "madge": "3.5.1"
+  }
+}
