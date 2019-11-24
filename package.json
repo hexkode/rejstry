@@ -1,7 +1,7 @@
 {
   "name": "rejstry",
   "version": "0.0.1",
-  "description": "",
+  "description": "Rejstry framework.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,8 +15,8 @@
     "type": "git",
     "url": "git+https://github.com/hexkode/rejstry.git"
   },
-  "author": "hexkode",
-  "license": "ISC",
+  "author": "Joe Yu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hexkode/rejstry/issues"
   },
