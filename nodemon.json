@@ -1,4 +1,0 @@
-{
-  "ignore": ["test/*", "docs/*"],
-  "watch": [".env", "src/*"]
-}
